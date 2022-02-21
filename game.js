@@ -1,34 +1,3 @@
-// const X_MAX = 800;
-// const Y_MAX = 500;
-// const BORDER_MIN = 75;
-// const BORDER_MAX = 300;
-
-// const CANVAS_BACKGROUND = 250;
-
-// // ALIEN CONSTANTS
-// var ALIEN_SPEED = 1;
-// var ALIEN_BULLET_SPD = 4;
-// var ALIEN_W = 60;
-// var ALIEN_H = 12;
-// var ALIEN_COLOR = "#27AE60";
-// var ALIEN_HEALTH = 50;
-
-// // PLAYER CONSTANTS
-// var PLAYER_W = 30;
-// var PLAYER_H = 25;
-// var PLAYER_COLOR = "#5DADE2";
-// var PLAYER_BULLET_SPD = -10;
-
-// // GAME CONSTANTS
-// var LEVEL = 0;
-// var DEF_BULLET_W = 2;
-// var DEF_BULLET_H = 20;
-// var NUM_ALIENS = 3;
-// var IS_PLAYER_ALIVE = true;
-// let GAME_STARTED = false;
-// var GAME_OVER_TXT = "Game Over!";
-
-
 function setup () {
     X_MAX = 800;
     Y_MAX = 500;
