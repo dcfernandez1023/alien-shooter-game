@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+    <!-- minify -->
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <!-- latest -->
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <!-- core style only -->
+    <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+    <title>Alien Shooter Game</title>
+    <style>
+        kbd {
+            background-color: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+            color: #333;
+            display: inline-block;
+            font-size: .85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body style="text-align: center; background-color: black;">
+    <br>
+    <div id="game-canvas"></div>
+    <div class="nes-container is-dark with-title" style="width: 800px; text-align: left; display: inline-block; font-family: '8BIT WONDER', sans-serif;">
+        <div>
+            Start/Stop: <kbd>Enter</kbd> | Shoot: <kbd>Space</kbd> | Left/Right: <kbd>&larr;</kbd> / <kbd>&rarr;</kbd>
+        </div>
+        <hr>
+        <div>
+            <a href="#" target="_blank" class="nes-badge" style="width: 200px;">
+                <span class="is-warning">
+                    Source Code
+                </span>
+            </a>
+            <a href="https://nostalgic-css.github.io/NES.css/" target="_blank" class="nes-badge">
+                <span class="is-warning">NES.css</span>
+            </a>
+            <a href="https://p5js.org/" target="_blank" class="nes-badge">
+                <span class="is-warning">p5.js</span>
+            </a>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
